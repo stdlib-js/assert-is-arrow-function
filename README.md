@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isArrowFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arrow-function@esm/index.mjs';
+import isArrowFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arrow-function@v0.1.0-esm/index.mjs';
 ```
 
 #### isArrowFunction( value )
@@ -85,7 +85,7 @@ bool = isArrowFunction( boop );
 <body>
 <script type="module">
 
-import isArrowFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arrow-function@esm/index.mjs';
+import isArrowFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-arrow-function@v0.1.0-esm/index.mjs';
 
 var bool = isArrowFunction( () => {} );
 // returns true
