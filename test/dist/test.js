@@ -40,7 +40,7 @@ tape( 'main export is a function', function test( t ) {
 
 // Run arrow function tests if environment supports `() => {}`...
 if ( hasArrowFunctions ) {
-	require( './../..2015-arrow-function' ); // eslint-disable-line stdlib/no-unassigned-require
+	require( './es2015-arrow-function' ); // eslint-disable-line stdlib/no-unassigned-require
 }
 
 tape( 'the function returns `false` if provided a function trying to impersonate an arrow function', function test( t ) {
