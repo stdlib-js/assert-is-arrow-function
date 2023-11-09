@@ -65,7 +65,7 @@ var isArrowFunction = require( '@stdlib/assert-is-arrow-function' );
 
 Tests if a `value` is a an [`arrow function`][mdn-arrow-function] such as `( a, b ) => a + b`, `x => x`, or `( x ) => { return x*x; }`.
 
-<!-- eslint-disable func-style, no-restricted-syntax -->
+<!-- eslint-disable func-style, no-restricted-syntax, node/no-unsupported-features/es-syntax -->
 
 ```javascript
 var beep = () => {
@@ -91,7 +91,7 @@ bool = isArrowFunction( boop );
 
 ## Examples
 
-<!-- eslint-disable func-style, no-restricted-syntax, no-empty-function -->
+<!-- eslint-disable func-style, no-restricted-syntax, no-empty-function, node/no-unsupported-features/es-syntax -->
 
 <!-- eslint no-undef: "error" -->
 
