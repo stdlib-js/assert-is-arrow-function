@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-arrow-function",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Test if a value is an arrow function.",
   "license": "Apache-2.0",
   "author": {
@@ -37,13 +37,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-function": "^0.2.2",
-    "@stdlib/function-to-string": "^0.2.2"
+    "@stdlib/assert-is-function": "^0.2.3",
+    "@stdlib/function-to-string": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-has-arrow-function-support": "^0.2.2",
-    "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/utils-eval": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
+    "@stdlib/utils-eval": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
